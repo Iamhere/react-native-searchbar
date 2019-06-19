@@ -16,7 +16,6 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import IonicIcon from 'react-native-vector-icons/Ionicons';
 import { filter, some, includes } from 'lodash/collection';
 import { debounce } from 'lodash/function';
-import { Actions as NavigationActions } from 'react-native-router-flux';
 
 
 const INITIAL_TOP = Platform.OS === 'ios' ? -80 : -60;
